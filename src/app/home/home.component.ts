@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { ApiserviceService } from '../apiservice.service';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  bostadData: object;
+  public angivenBostad = 'Stad';
+
+  constructor(private route: ActivatedRoute, private apiService: ApiserviceService) { }
 
   ngOnInit() {
+
+
+
   }
 
 }
