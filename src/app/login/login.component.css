@@ -1,3 +1,8 @@
+h1 {
+  font-size: 4em;
+  font-family: 'Lobster', cursive;
+}
+
 .loginWindow {
   border-style: solid;
   margin-left: auto;
